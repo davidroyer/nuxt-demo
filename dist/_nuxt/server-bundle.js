@@ -1416,16 +1416,16 @@ module.exports = require("querystring");
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_router___default.a);
 
-var _cdb6545a =  false ? function () {
-  return System.import('/Users/droyer/nuxt-demo/pages/index.vue');
+var _14d33a9a =  false ? function () {
+  return System.import('/Users/droyer/Playground-2017/nuxt-demo/pages/index.vue');
 } : __webpack_require__(122);
 
-var _796cfb0e =  false ? function () {
-  return System.import('/Users/droyer/nuxt-demo/pages/about.vue');
+var _15c94056 =  false ? function () {
+  return System.import('/Users/droyer/Playground-2017/nuxt-demo/pages/about.vue');
 } : __webpack_require__(120);
 
-var _56d1783e =  false ? function () {
-  return System.import('/Users/droyer/nuxt-demo/pages/contact.vue');
+var _1e3f92e8 =  false ? function () {
+  return System.import('/Users/droyer/Playground-2017/nuxt-demo/pages/contact.vue');
 } : __webpack_require__(121);
 
 var scrollBehavior = function scrollBehavior(to, from, savedPosition) {
@@ -1457,15 +1457,15 @@ var scrollBehavior = function scrollBehavior(to, from, savedPosition) {
   scrollBehavior: scrollBehavior,
   routes: [{
     path: "/",
-    component: _cdb6545a,
+    component: _14d33a9a,
     name: "index"
   }, {
     path: "/about",
-    component: _796cfb0e,
+    component: _15c94056,
     name: "about"
   }, {
     path: "/contact",
-    component: _56d1783e,
+    component: _1e3f92e8,
     name: "contact"
   }]
 });
@@ -1489,7 +1489,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var layouts = {
 
   "_default":  false ? function () {
-    return System.import('/Users/droyer/nuxt-demo/layouts/default.vue');
+    return System.import('/Users/droyer/Playground-2017/nuxt-demo/layouts/default.vue');
   } : __webpack_require__(118)
 
 };
@@ -1640,8 +1640,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__nuxt_child__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Users_droyer_nuxt_demo_layouts_error_vue__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Users_droyer_nuxt_demo_layouts_error_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Users_droyer_nuxt_demo_layouts_error_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Users_droyer_Playground_2017_nuxt_demo_layouts_error_vue__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Users_droyer_Playground_2017_nuxt_demo_layouts_error_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Users_droyer_Playground_2017_nuxt_demo_layouts_error_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nuxt_loading_vue__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nuxt_loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__nuxt_loading_vue__);
 //
@@ -1695,7 +1695,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 
   components: {
     NuxtChild: __WEBPACK_IMPORTED_MODULE_1__nuxt_child__["a" /* default */],
-    NuxtError: __WEBPACK_IMPORTED_MODULE_2__Users_droyer_nuxt_demo_layouts_error_vue___default.a,
+    NuxtError: __WEBPACK_IMPORTED_MODULE_2__Users_droyer_Playground_2017_nuxt_demo_layouts_error_vue___default.a,
     NuxtLoading: __WEBPACK_IMPORTED_MODULE_3__nuxt_loading_vue___default.a
   }
 };
@@ -3195,7 +3195,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(59)
 
 /* template */
-var __vue_template__ = __webpack_require__(123)
+var __vue_template__ = __webpack_require__(130)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3207,7 +3207,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/droyer/nuxt-demo/.nuxt/App.vue"
+__vue_options__.__file = "/Users/droyer/Playground-2017/nuxt-demo/.nuxt/App.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 if (__vue_options__.functional) {console.error("[vue-loader] App.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -3228,7 +3228,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(60)
 
 /* template */
-var __vue_template__ = __webpack_require__(131)
+var __vue_template__ = __webpack_require__(128)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3240,10 +3240,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/droyer/nuxt-demo/.nuxt/components/nuxt-loading.vue"
+__vue_options__.__file = "/Users/droyer/Playground-2017/nuxt-demo/.nuxt/components/nuxt-loading.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-d081140e"
+__vue_options__._scopeId = "data-v-318ed700"
 if (__vue_options__.functional) {console.error("[vue-loader] nuxt-loading.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 module.exports = __vue_exports__
@@ -3260,7 +3260,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(61)
 
 /* template */
-var __vue_template__ = __webpack_require__(125)
+var __vue_template__ = __webpack_require__(132)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3272,7 +3272,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/droyer/nuxt-demo/.nuxt/components/nuxt.vue"
+__vue_options__.__file = "/Users/droyer/Playground-2017/nuxt-demo/.nuxt/components/nuxt.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 if (__vue_options__.functional) {console.error("[vue-loader] nuxt.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -3291,7 +3291,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(62)
 
 /* template */
-var __vue_template__ = __webpack_require__(132)
+var __vue_template__ = __webpack_require__(127)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3303,7 +3303,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/droyer/nuxt-demo/components/Footer.vue"
+__vue_options__.__file = "/Users/droyer/Playground-2017/nuxt-demo/components/Footer.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 if (__vue_options__.functional) {console.error("[vue-loader] Footer.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -3334,7 +3334,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/droyer/nuxt-demo/components/Header.vue"
+__vue_options__.__file = "/Users/droyer/Playground-2017/nuxt-demo/components/Header.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 if (__vue_options__.functional) {console.error("[vue-loader] Header.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -3355,7 +3355,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(64)
 
 /* template */
-var __vue_template__ = __webpack_require__(127)
+var __vue_template__ = __webpack_require__(125)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3367,7 +3367,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/droyer/nuxt-demo/layouts/default.vue"
+__vue_options__.__file = "/Users/droyer/Playground-2017/nuxt-demo/layouts/default.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 if (__vue_options__.functional) {console.error("[vue-loader] default.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -3388,7 +3388,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(65)
 
 /* template */
-var __vue_template__ = __webpack_require__(126)
+var __vue_template__ = __webpack_require__(131)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3400,10 +3400,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/droyer/nuxt-demo/layouts/error.vue"
+__vue_options__.__file = "/Users/droyer/Playground-2017/nuxt-demo/layouts/error.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-735b4f8e"
+__vue_options__._scopeId = "data-v-85f8c2d6"
 if (__vue_options__.functional) {console.error("[vue-loader] error.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 module.exports = __vue_exports__
@@ -3422,7 +3422,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(66)
 
 /* template */
-var __vue_template__ = __webpack_require__(128)
+var __vue_template__ = __webpack_require__(124)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3434,10 +3434,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/droyer/nuxt-demo/pages/about.vue"
+__vue_options__.__file = "/Users/droyer/Playground-2017/nuxt-demo/pages/about.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-796cfb0e"
+__vue_options__._scopeId = "data-v-15c94056"
 if (__vue_options__.functional) {console.error("[vue-loader] about.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 module.exports = __vue_exports__
@@ -3453,7 +3453,7 @@ var __vue_styles__ = {}
 /* styles */
 
 /* template */
-var __vue_template__ = __webpack_require__(124)
+var __vue_template__ = __webpack_require__(126)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3465,10 +3465,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/droyer/nuxt-demo/pages/contact.vue"
+__vue_options__.__file = "/Users/droyer/Playground-2017/nuxt-demo/pages/contact.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-56d1783e"
+__vue_options__._scopeId = "data-v-1e3f92e8"
 if (__vue_options__.functional) {console.error("[vue-loader] contact.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 module.exports = __vue_exports__
@@ -3484,7 +3484,7 @@ var __vue_styles__ = {}
 /* styles */
 
 /* template */
-var __vue_template__ = __webpack_require__(130)
+var __vue_template__ = __webpack_require__(123)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3496,10 +3496,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/droyer/nuxt-demo/pages/index.vue"
+__vue_options__.__file = "/Users/droyer/Playground-2017/nuxt-demo/pages/index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-cdb6545a"
+__vue_options__._scopeId = "data-v-14d33a9a"
 if (__vue_options__.functional) {console.error("[vue-loader] index.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 module.exports = __vue_exports__
@@ -3507,133 +3507,6 @@ module.exports = __vue_exports__
 
 /***/ },
 /* 123 */
-/***/ function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    attrs: {
-      "id": "__nuxt"
-    }
-  }, [(_vm.layout) ? _c(_vm.layout, {
-    tag: "component"
-  }) : _vm._e()], 1)
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ },
-/* 124 */
-/***/ function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('section', {
-    staticClass: "container"
-  }, [_c('img', {
-    staticClass: "logo",
-    attrs: {
-      "src": __webpack_require__(22),
-      "alt": "Nuxt.js Logo"
-    }
-  }), _c('h1', {
-    staticClass: "title"
-  }, [_vm._v("\n    A minimalistic framework "), _c('br'), _vm._v("for server-rendered Vue.js applications\n  ")])])
-}]}
-module.exports.render._withStripped = true
-
-/***/ },
-/* 125 */
-/***/ function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('nuxt-loading', {
-    ref: "loading"
-  }), (!_vm.nuxt.err) ? _c('nuxt-child') : _vm._e(), (_vm.nuxt.err) ? _c('nuxt-error', {
-    attrs: {
-      "error": _vm.nuxt.err
-    }
-  }) : _vm._e()], 1)
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ },
-/* 126 */
-/***/ function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('section', {
-    staticClass: "container"
-  }, [_c('img', {
-    attrs: {
-      "src": __webpack_require__(22),
-      "alt": "Nuxt.js Logo"
-    }
-  }), _c('h1', {
-    staticClass: "title"
-  }, [_vm._v("\n    " + _vm._s(_vm.error.statusCode) + "\n  ")]), _c('h2', {
-    staticClass: "info"
-  }, [_vm._v("\n    " + _vm._s(_vm.error.message) + "\n  ")]), (_vm.error.statusCode === 404) ? _c('nuxt-link', {
-    staticClass: "button",
-    attrs: {
-      "to": "/"
-    }
-  }, [_vm._v("\n    Homepage\n  ")]) : _vm._e()], 1)
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ },
-/* 127 */
-/***/ function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('app-header'), _c('nuxt'), _c('app-footer')], 1)
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ },
-/* 128 */
-/***/ function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('section', {
-    staticClass: "container"
-  }, [_c('img', {
-    staticClass: "logo",
-    attrs: {
-      "src": __webpack_require__(22),
-      "alt": "Nuxt.js Logo"
-    }
-  }), _c('h1', {
-    staticClass: "title"
-  }, [_vm._v("\n    This page is loaded from the " + _vm._s(_vm.name) + "\n  ")]), (_vm.name === 'client') ? _c('h2', {
-    staticClass: "info"
-  }, [_vm._v("\n    Please refresh the page\n  ")]) : _vm._e(), _c('nuxt-link', {
-    staticClass: "button",
-    attrs: {
-      "to": "/"
-    }
-  }, [_vm._v("\n    Home page\n  ")])], 1)
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ },
-/* 129 */
-/***/ function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('header', _vm._l((_vm.navLinks), function(link) {
-    return _c('nuxt-link', {
-      staticClass: "button",
-      attrs: {
-        "to": link.path
-      }
-    }, [_vm._v("\n    " + _vm._s(link.text) + "\n  ")])
-  }))
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ },
-/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3664,7 +3537,77 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports.render._withStripped = true
 
 /***/ },
-/* 131 */
+/* 124 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('section', {
+    staticClass: "container"
+  }, [_c('img', {
+    staticClass: "logo",
+    attrs: {
+      "src": __webpack_require__(22),
+      "alt": "Nuxt.js Logo"
+    }
+  }), _c('h1', {
+    staticClass: "title"
+  }, [_vm._v("\n    This page is loaded from the " + _vm._s(_vm.name) + "\n  ")]), (_vm.name === 'client') ? _c('h2', {
+    staticClass: "info"
+  }, [_vm._v("\n    Please refresh the page\n  ")]) : _vm._e(), _c('nuxt-link', {
+    staticClass: "button",
+    attrs: {
+      "to": "/"
+    }
+  }, [_vm._v("\n    Home page\n  ")])], 1)
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+
+/***/ },
+/* 125 */
+/***/ function(module, exports) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('app-header'), _c('nuxt'), _c('app-footer')], 1)
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+
+/***/ },
+/* 126 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('section', {
+    staticClass: "container"
+  }, [_c('img', {
+    staticClass: "logo",
+    attrs: {
+      "src": __webpack_require__(22),
+      "alt": "Nuxt.js Logo"
+    }
+  }), _c('h1', {
+    staticClass: "title"
+  }, [_vm._v("\n    A minimalistic framework "), _c('br'), _vm._v("for server-rendered Vue.js applications\n  ")])])
+}]}
+module.exports.render._withStripped = true
+
+/***/ },
+/* 127 */
+/***/ function(module, exports) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('footer', [_vm._v("\n  " + _vm._s(_vm.footerData) + "\n  TEST\n  Visit our website for more documentation : "), _c('a', {
+    attrs: {
+      "href": "https://nuxtjs.org",
+      "target": "_blank"
+    }
+  }, [_vm._v("nuxtjs.org")])])
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+
+/***/ },
+/* 128 */
 /***/ function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3681,16 +3624,73 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports.render._withStripped = true
 
 /***/ },
+/* 129 */
+/***/ function(module, exports) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('header', _vm._l((_vm.navLinks), function(link) {
+    return _c('nuxt-link', {
+      staticClass: "button",
+      attrs: {
+        "to": link.path
+      }
+    }, [_vm._v("\n    " + _vm._s(link.text) + "\n  ")])
+  }))
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+
+/***/ },
+/* 130 */
+/***/ function(module, exports) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    attrs: {
+      "id": "__nuxt"
+    }
+  }, [(_vm.layout) ? _c(_vm.layout, {
+    tag: "component"
+  }) : _vm._e()], 1)
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+
+/***/ },
+/* 131 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('section', {
+    staticClass: "container"
+  }, [_c('img', {
+    attrs: {
+      "src": __webpack_require__(22),
+      "alt": "Nuxt.js Logo"
+    }
+  }), _c('h1', {
+    staticClass: "title"
+  }, [_vm._v("\n    " + _vm._s(_vm.error.statusCode) + "\n  ")]), _c('h2', {
+    staticClass: "info"
+  }, [_vm._v("\n    " + _vm._s(_vm.error.message) + "\n  ")]), (_vm.error.statusCode === 404) ? _c('nuxt-link', {
+    staticClass: "button",
+    attrs: {
+      "to": "/"
+    }
+  }, [_vm._v("\n    Homepage\n  ")]) : _vm._e()], 1)
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+
+/***/ },
 /* 132 */
 /***/ function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('footer', [_vm._v("\n  " + _vm._s(_vm.footerData) + "\n  TEST\n  Visit our website for more documentation : "), _c('a', {
+  return _c('div', [_c('nuxt-loading', {
+    ref: "loading"
+  }), (!_vm.nuxt.err) ? _c('nuxt-child') : _vm._e(), (_vm.nuxt.err) ? _c('nuxt-error', {
     attrs: {
-      "href": "https://nuxtjs.org",
-      "target": "_blank"
+      "error": _vm.nuxt.err
     }
-  }, [_vm._v("nuxtjs.org")])])
+  }) : _vm._e()], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 
